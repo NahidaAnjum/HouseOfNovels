@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">HouseOfNovels</string>
+    <string name="appwidget_text">ROMANCE"\n" HORROR"\n" SCIENCEFICTION"\n" THRILLER"\n" FANTASY"\n" COMEDY"\n" HISTORICALFICTION"\n" DRAMA"\n"</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title">Title:</string>
+    <string name="add_to_fav">Add To Favourites:</string>
+    <string name="categories_of_novels">Categories of Novels</string>
+    <string name="romance">ROMANCE</string>
+    <string name="sciencefiction">SCI-FI</string>
+    <string name="horror">MYSTERY</string>
+    <string name="fantasy">FANTASY</string>
+    <string name="comedy">COMEDY</string>
+    <string name="thriller">THRILLER</string>
+    <string name="historicalfiction">HISTORICAL-FI</string>
+    <string name="drama">DRAMA</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="Ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="comedyttl">COMEDY NOVELS</string>
+    <string name="comedy_url">https://www.googleapis.com/books/v1/volumes?q=novels/comedy</string>
+    <string name="fav">Add to favorites</string>
+    <string name="rmv_fav">Removed from Favorites</string>
+    <string name="thrillerttl">THRILLER NOVELS</string>
+    <string name="thriller_url">https://www.googleapis.com/books/v1/volumes?q=novels/thriller</string>
+    <string name="wlcm_fav">welcome to fav</string>
+    <string name="fantasyttl">FANTASY NOVELS</string>
+    <string name="fantasy_url">https://www.googleapis.com/books/v1/volumes?q=novels/fantasy</string>
+    <string name="alert_msg">please Turn On your Mobile data or Wifi</string>
+    <string name="no_internet">No Internet connection</string>
+    <string name="setting">Settings</string>
+    <string name="historicalfiction_ttl">HISTORICAL_FICTION</string>
+    <string name="historicalfiction_url">https://www.googleapis.com/books/v1/volumes?q=novels/historicalfiction</string>
+    <string name="dramattl">DRAMA NOVELS</string>
+    <string name="drama_url">https://www.googleapis.com/books/v1/volumes?q=novels/drama</string>
+    <string name="romance_ttl">ROMANCE NOVELS</string>
+    <string name="romance_url">https://www.googleapis.com/books/v1/volumes?q=novels/romance</string>
+    <string name="sciencefictionttl">SCIENCE_FICTION NOVELS</string>
+    <string name="sciencefiction_url">https://www.googleapis.com/books/v1/volumes?q=novels/sciencefiction</string>
+    <string name="horror_ttl">MYSTERY NOVELS</string>
+    <string name="horror_url">https://www.googleapis.com/books/v1/volumes?q=novels/inspiration</string>
+
+    <string name="author">Author:</string>
+    <string name="price">Price:</string>
+    <string name="publisher">Publisher:</string>
+    <string name="publishers">publisher</string>
+    <string name="published_date">Published Date:</string>
+    <string name="date_is_not_available">Date is not available</string>
+    <string name="description">Description:</string>
+    <string name="no_description_available">No description Available</string>
+    <string name="email_hint">Enter Your Email</string>
+    <string name="password_hint">Enter Your Password</string>
+    <string name="enter_your_new_email">enter your new Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">register</string>
+    <string name="login">Login</string>
+    <string name="password">password</string>
+    <string name="book_name">book name</string>
+    <string name="registerconform">Confirm Password and Password Field doesn\'t match.</string>
+    <string name="err">Error :</string>
+    <string name="tittle_toolbar">Top Novels</string>
+    <string name="images">Image</string>
+    <string name="image">Image</string>
+    <string name="banner">BANNER</string>
+    <string name="ad_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="image_desc">Image</string>
+    <string name="collapsing_toolbar">Collapsing Toolbar</string>
+    <string name="favourite_images">FAVOURITE IMAGES</string>
+    <string name="image_des">Image</string>
+
+</resources>

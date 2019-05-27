@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/hdngg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#075dcbf0"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/romancebtn"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="Romanceclick"
+                android:paddingTop="10dp"
+                android:text="@string/romance"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="SciencefictionClick"
+                android:text="@string/sciencefiction"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="horrorclick"
+                android:text="@string/horror"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="fantasyclick"
+                android:text="@string/fantasy"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="comedyclick"
+                android:text="@string/comedy"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="thrillerclick"
+                android:text="@string/thriller"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="historicalfictionclick"
+                android:text="@string/historicalfiction"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="dramaclick"
+                android:text="@string/drama"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:adSize="@string/banner"
+                app:adUnitId="@string/ad_id">
+
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/show_coupon_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top|end"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:onClick="fav"
+        android:layout_margin="10dp"
+        android:src="@drawable/favs"
+        app:layout_behavior="com.zoftino.materialdesign.FABAppBarLayoutCustomBehavior">
+    </android.support.design.widget.FloatingActionButton>
+
+</RelativeLayout>

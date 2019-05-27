@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "334392248863",
+    "firebase_url": "https://houseofnovels-648e6.firebaseio.com",
+    "project_id": "houseofnovels-648e6",
+    "storage_bucket": "houseofnovels-648e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334392248863:android:6e30ab6501d08d61",
+        "android_client_info": {
+          "package_name": "com.example.snahi.houseofnovels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334392248863-7h0i6fj42a6oq9n6vhs660dci79rvvvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.snahi.houseofnovels",
+            "certificate_hash": "610bd3ee7e75eefd7bbf5c6f9eaff0e9ea280cc1"
+          }
+        },
+        {
+          "client_id": "334392248863-2doo3bhq0g1h640gr6hslntn3so8p47g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNMCT2VsRJZo8Hl9O66BmjGihJHhrHndI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334392248863-2doo3bhq0g1h640gr6hslntn3so8p47g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

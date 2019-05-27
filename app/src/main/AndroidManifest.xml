@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.snahi.houseofnovels">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RomanceIntentActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ScienceFictionActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HorrorActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FantasyActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ComedyActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ThrillerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HistoricalActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DramaActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DetailsActivity"
+            android:parentActivityName=".RomanceIntentActivity"
+            android:theme="@style/AppTheme.slideactivity" />
+        <activity android:name=".FavouriteActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+
+        <receiver android:name=".AppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/app_widget_info" />
+        </receiver>
+    </application>
+
+</manifest>
